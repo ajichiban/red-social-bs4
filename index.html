@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+
+	<title>Red social</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-auto logo d-none d-md-block"> <!-- Logo -->
+					<a href="#">
+						<div class="loguito d-flex ">
+							<i class="fab fa-asymmetrik"></i>
+							<p class="align-self-center">Design Web</p>
+							<i class="fab fa-earlybirds align-self-center "></i>
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-8 col-md-6 order-1 order-sm-0 buscar"> <!-- Buscador -->
+					<form action="">
+						<div class="row no-gutters align-items-center">
+							<div class="columna col-10 form-group">
+								<input class="form-control" type="text" placeholder="Amigos, lugares , y cosas que te gustan">
+							</div>
+							<div class="columna col-2 form-group">
+								<button class="btn btn-secondary"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</form>	
+				</div>
+				<div class="col-12 col-sm-3 col-lg-2 menu d-flex justify-content-between ml-auto"> <!-- Notificaciones -->
+					<a href="#"><i class="fas fa-users"></i></a>
+					<a href="#"><i class="fas fa-bell"></i></a>
+					<a href="#"><i class="fas fa-comments"></i></a>
+					<a href="#"><img src="img/aj.jpg"width="22" height="22" alt=""></a>									
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="row">
+			<div class=" col-12 col-md-3 barra-lateral " id="barra-lateral"> <!-- Barra-Lateral -->
+				<nav class="d-flex flex-column">
+					<a href=""><i class="fas fa-users"></i>Amigos</a>
+					<a href=""><i class="fa fa-envelope" aria-hidden="true"></i>Mensajes Privados</a>
+					<a href=""><i class="fas fa-thumbs-up"></i>Paginas</a>
+					<a href=""><i class="fas fa-play"></i>Videos</a>
+					<a href=""><i class="fa fa-image" aria-hidden="true"></i>Fotografias</a>
+					<a href=""><i class="fas fa-music"></i>Musica</a>
+					<a href=""><i class="fas fa-book"></i>Libros</a>
+				</nav>
+			</div>
+			<div class="fondo-menu-movil "></div>
+
+			<div class="col contenido-principal">
+				<div class="publicar">
+					<div class="row"> <!-- Menu movil -->
+						<div class="col">
+							<a href="#" class="btn-menu btn btn-primary btn-block d-flex justify-content-between d-md-none">
+								<span>Menu</span>
+								<i class="fa fa-bars align-self-center" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="row publicaciones justify-content-center"> <!-- Publicaciones -->
+						<div class="col-auto foto"> <!-- foto -->
+							<a>
+								<img class="" src="img/person1.jpg" alt="">
+							</a>
+						</div>
+						<div class="col"> <!-- Formulario -mensajes -->
+							<form action="">
+								<div class="form-group"> <!-- MEnsaje -->
+									<textarea placeholder="Publicar mensaje" class="form-control"></textarea> 
+								</div>
+								<div class="contenedor-botones d-flex justify-content-between"> <!-- botones -->
+									<div class="media"> 
+										<a href=""><i class="fas fa-image    "></i></a>
+										<a href=""><i class="fa fa-play" aria-hidden="true"></i></a>
+										<a href=""><i class="fa fa-music" aria-hidden="true"></i></a>
+									</div>
+									<button class="btn btn-sm btn-primary">Publicar</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="publicacion mt-3">
+
+					<!-- Publicacion # 1 -->
+					<div class="media"> <!-- Publicaciones  -->
+						<a class="d-flex mr-4" href="#">
+							<img src="img/person2.jpg" alt="">
+						</a>
+						<div class="media-body ">
+							<h5>Adrea pirlo</h5>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque quod, enim praesentium iusto obcaecati delectus minus corrupti, laudantium nostrum fuga eaque, quasi minima explicabo omnis ad fugit. Iste, sed?</p>
+							<div class="botones d-flex justify-content-between">
+								<button class="btn btn-sm btn-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+								<p class="">15 <i class="fa fa-thumbs-up" aria-hidden="true"></i></p> 
+							</div>
+							<div class="row">  <!-- Cmentarios -->
+								<div class="col comentarios">
+									<ul class="list-unstyled">
+										<li class="media comentario">
+											<a class="d-flex " href="#">
+												<img src="img/person3.jpg" width="40px" height="40px" alt="">
+											</a>
+											<div class="media-body align-self-end ">
+												<div class="form-group">
+													<h6>Eliza lili</h6>
+													<input  class="form-control"placeholder="Comentario" type="text">
+												</div>
+											</div>
+										</li>
+										<li class="media comentario">
+											<a class="d-flex" href="#">
+												<img class="" src="img/aj.jpg" alt="" width="40px" height="40px">
+											</a>
+											<div class="media-body align-self-end ">
+												<h6>Augusto Rengifo</h6>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa suscipit consectetur delectus nulla libero quidem sed voluptatum soluta excepturi.</p>
+												<a href="">Me gusta</a>
+											</div>
+										</li>
+										<li class="media comentario">
+											<a class="d-flex" href="#">
+												<img src="img/person3.jpg" alt="" width="40px" height="40px">
+											</a>
+											<div class="media-body">
+												<h6>susu </h6>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita.</p>
+												<a href="">Me gusta</a>
+											</div>
+										</li>
+									  </ul>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+					<!-- Publicacion # 2 -->
+					<div class="media"> <!-- Publicaciones  -->
+						<a class="d-flex mr-4" href="#">
+							<img src="img/person2.jpg" alt="">
+						</a>
+						<div class="media-body ">
+							<h5>Adrea pirlo</h5>
+							<div class="foto-publicacion">
+								<img src="img/bg4.jpg" width="300px" height="300px" alt="">
+							</div>
+							<div class="botones d-flex justify-content-between">
+								<button class="btn btn-sm btn-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+								<p class="">15 <i class="fa fa-thumbs-up" aria-hidden="true"></i></p> 
+							</div>
+							<div class="row">  <!-- Cmentarios -->
+								<div class="col comentarios">
+									<ul class="list-unstyled">
+										<li class="media comentario">
+											<a class="d-flex " href="#">
+												<img src="img/person3.jpg" width="40px" height="40px" alt="">
+											</a>
+											<div class="media-body align-self-end ">
+												<div class="form-group">
+													<h6>Eliza lili</h6>
+													<input  class="form-control"placeholder="Comentario" type="text">
+												</div>
+											</div>
+										</li>
+										<li class="media comentario">
+											<a class="d-flex" href="#">
+												<img class="" src="img/aj.jpg" alt="" width="40px" height="40px">
+											</a>
+											<div class="media-body align-self-end ">
+												<h6>Augusto Rengifo</h6>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa suscipit consectetur delectus nulla libero quidem sed voluptatum soluta excepturi.</p>
+												<a href="">Me gusta</a>
+											</div>
+										</li>
+										<li class="media comentario">
+											<a class="d-flex" href="#">
+												<img src="img/person3.jpg" alt="" width="40px" height="40px">
+											</a>
+											<div class="media-body">
+												<h6>susu </h6>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, expedita.</p>
+												<a href="">Me gusta</a>
+											</div>
+										</li>
+									  </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-3 publicidad d-none d-md-block">
+				<h3>Publicidad</h3>
+				<div class="ads">
+					<a href=""><img src="img/bg4.jpg" width="300px" alt=""></a>
+					<a href=""><img src="img/bg5.jpg" width="300px" alt=""></a>
+					<a href=""><img src="img/bg6.jpg" width="300px" alt=""></a>
+				</div>
+
+				<footer>
+					<a href="#">Privacidad</a>
+					<a href="#">Condiciones</a>
+					<a href="#">Publicidad</a>
+					<p class="copyright">Red Social © 2018</p>
+				</footer>
+			</div>
+		</div>
+	</main>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
